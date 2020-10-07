@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "glowsquid",
+  "version": "${version}",
+  "name": "GlowSquid",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/glowsquid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "us.moai.glowsquid.client.GlowSquidClient"
+    ],
+    "main": [
+      "us.moai.glowsquid.GlowSquid"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.1+build.209",
+    "fabric": "*",
+    "minecraft": "1.16.3",
+    "spruceui": ">=1.6.4",
+    "modmenu": ">=1.14.5"
+  }
+}
